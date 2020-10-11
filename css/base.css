@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* overflow-y: hidden; */
+  /* overflow-x: hidden; */
+  font-size: 12px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+span {
+  display: inline-block;
+}
+
+.container {
+  width: 1226px;
+  margin: 0 auto;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+/* 悬停样式 */
+.hover-car-show {
+  display: none;
+}
+
+.top-car:hover .hover-car-show {
+  display: block;
+  color: #ff832f;
+}
+.top-car:hover .hidden-car-infor {
+  display: block;
+  color: #ff832f;
+  height: 100px;
+  transition: 0.5s;
+}
+.top-car:hover .hover-car-hidden {
+  display: none;
+}
